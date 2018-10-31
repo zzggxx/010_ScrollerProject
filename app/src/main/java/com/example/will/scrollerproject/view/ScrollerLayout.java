@@ -9,6 +9,9 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
+/**
+ * 参见郭林博客
+ */
 public class ScrollerLayout extends ViewGroup {
 
     /**
@@ -111,6 +114,7 @@ public class ScrollerLayout extends ViewGroup {
 
     /**
      * scrollTo():内参数,要想向右或者下移动填入负值,scrollBy()也是一样的.
+     *
      * @param event
      * @return
      */
